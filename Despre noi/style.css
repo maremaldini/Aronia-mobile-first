@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+main {
+  padding: 15px;
+  width: 100vw;
+  overflow-x: hidden;
+  background: linear-gradient(to bottom, white, rgb(180, 142, 194));
+}
+main .content h1 {
+  color: #4d004d;
+}
+main .content h3 {
+  padding: 10px 0;
+}
+
+.culture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.culture img {
+  width: 70%;
+  margin: 10px 0;
+}
+
+@media (min-width: 1000px) {
+  .culture {
+    flex-direction: row;
+    margin: 60px 0;
+  }
+  .culture img {
+    width: 30%;
+    margin: 0 20px;
+  }
+}/*# sourceMappingURL=style.css.map */

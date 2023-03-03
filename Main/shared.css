@@ -1,0 +1,154 @@
+/* Header */
+header {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+header .first-header {
+  background: lightgreen;
+  overflow-x: hidden;
+  background-color: #df80ff;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+header .first-header .box {
+  display: flex;
+  justify-content: space-around;
+}
+header .first-header .box .click {
+  align-self: center;
+}
+
+.second-header {
+  background: lightcoral;
+  overflow-x: hidden;
+  background: #b3b3b3;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.second-header .box nav {
+  width: 100%;
+}
+.second-header .box nav ul {
+  width: 100%;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.box {
+  display: flex;
+}
+
+.box nav ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.phone-number-wiggle {
+  display: none;
+}
+
+.call-image {
+  width: 30px;
+  border-radius: 50%;
+}
+
+.phone-number-container:hover {
+  cursor: pointer;
+}
+
+.logo-image {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.about-us {
+  color: #4d004d;
+}
+
+/* Footer */
+footer {
+  background: rgb(117, 121, 118);
+  padding: 15px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+footer nav ul {
+  margin: 15px 0;
+}
+footer div h4 {
+  padding-top: 20px;
+}
+
+@media (min-width: 1000px) {
+  /* First header */
+  .first-header {
+    display: flex;
+    justify-content: center;
+    height: 60px;
+  }
+  .first-header .box {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .first-header nav ul {
+    flex-direction: row;
+    height: 100%;
+  }
+  .first-header nav ul li {
+    margin-left: 30px;
+  }
+  .phone-number-wiggle {
+    display: block;
+  }
+  .phone-number-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  .call-image {
+    margin-right: 10px;
+  }
+  /* Second header */
+  .second-header {
+    height: 40px;
+  }
+  .second-header .box {
+    height: 100%;
+  }
+  .second-header .box nav {
+    height: 100%;
+    display: flex;
+  }
+  .second-header .box nav ul {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+  .second-header {
+    display: flex;
+    justify-content: center;
+  }
+  .second-header .box {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+  }
+  /* Footer */
+  footer nav {
+    display: flex;
+    justify-content: space-around;
+  }
+  footer div {
+    display: flex;
+    justify-content: center;
+  }
+}/*# sourceMappingURL=shared.css.map */
